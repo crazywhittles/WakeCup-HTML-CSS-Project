@@ -1,4 +1,4 @@
-# H1 WakeCup
+# WakeCup
 
 Welcome to my HTML/CSS Project called WakeCup, this is for one of my class projects.
 I have used pure HTML with no Bootstrap.
