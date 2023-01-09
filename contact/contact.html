@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+        <title>WakeCup - Contact</title>
+        <link rel="icon" href="/images/logo.png" type="image/icon type">
+    </head>
+    <!--responsive for phone-->
+    <style>
+        @media screen and (max-width:700px) {
+        .header {
+            height: 420px;
+            display: block;
+        }
+        .main {
+            margin-left: 0;
+        }
+        }
+    </style>
+    <body class="body">
+        <div>
+            <header class="header">
+                <img class="logo" src="/images/logo.png" alt="logo" />
+                <h2 class="header-title"><a href="/homePage/index.html">WakeCup</a></h2>
+                <h5 class="header-list"><a href="/aboutUs/aboutUs.html">About Us</a></h5>
+                <h5 class="header-list"><a href="/brewingEquipment/brewingEquipment.html">Brewing Equipment</a></h5>
+                <h5 class="header-list"><a href="/coffeeBlends/coffeeBlends.html">Coffee Blends</a></h5>
+                <h5 class="header-list"><a href="/learnWithUs/learnWithUs.html">Learn With Us</a></h5>
+                <h5 class="header-list"><a href="/contact/contact.html">Contact</a></h5>
+            </header>
+        </div>
+        <div class="headline">
+            <p>
+                To contact us, please enter a few details:
+            </p>
+        </div>
+        <div class="main">
+            <form class="sign-form">
+                <label>Name</label>
+                <input type="text">
+                <br />
+                <label>Email</label>
+                <input type="email">
+                <br />
+                <label>Phone Number</label>
+                <input type="tel">
+                <br />
+                <label>Are you interested in partnering with us?</label>
+                <select id="partner" name="partner">
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                </select>
+                <br />
+                <label>City</label>
+                <input type="text">
+                <br />
+                <br />
+                <label class="message">Your Message</label>
+                <br />
+                <textarea rows = "4" cols = "60" name = "description" maxlength="400"
+                style="resize: none;">
+                 </textarea>
+                <br />
+                <div id="save">
+                    <!--submit form-->
+                    <input class="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
